@@ -1,0 +1,4 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by TimeKeeper.rc
+//
+#define HIDC_COMBO_WORK_CATEGORY        0x80820411    // IDD_DIALOG_NEWTASK

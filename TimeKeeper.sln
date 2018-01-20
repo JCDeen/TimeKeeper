@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TimeKeeper", "TimeKeeper\TimeKeeper.vcproj", "{2262EC6E-002C-485B-A042-D0EB862A69B1}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E85B70B-5361-4489-89D6-B07F01B0C945}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2262EC6E-002C-485B-A042-D0EB862A69B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2262EC6E-002C-485B-A042-D0EB862A69B1}.Debug|Win32.Build.0 = Debug|Win32
+		{2262EC6E-002C-485B-A042-D0EB862A69B1}.Release|Win32.ActiveCfg = Release|Win32
+		{2262EC6E-002C-485B-A042-D0EB862A69B1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,450 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\TimeKeeper.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\TimeKeeper.ico"
+IDI_ICON1               ICON                    "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 237, 86
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About TimeKeeper"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDI_ICON1,IDC_STATIC,7,7,21,20
+    LTEXT           "TimeKeeper Version 1.0",IDC_STATIC,31,5,82,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2009\nJames C. Deen",IDC_STATIC,31,17,68,17
+    DEFPUSHBUTTON   "OK",IDOK,180,7,50,16,WS_GROUP
+END
+
+IDD_TIMEKEEPER_DIALOG DIALOGEX 0, 0, 426, 298
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "TimeKeeper"
+MENU IDR_MENU1
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,369,274,50,16
+    PUSHBUTTON      "Cancel",IDCANCEL,7,274,50,16
+    PUSHBUTTON      "&Help",ID_HELP,62,274,50,16
+    CONTROL         "",IDC_LIST2,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,39,412,219
+    EDITTEXT        IDC_EDIT_TOTAL_COST,144,17,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TOTAL_HOURS,56,18,42,12,ES_AUTOHSCROLL
+    GROUPBOX        " Project Totals ",IDC_STATIC_GROUP,7,7,184,28
+    LTEXT           "Total Cost: ",IDC_STATIC,107,19,36,9
+    LTEXT           "Total Time: ",IDC_STATIC,18,19,35,9
+    PUSHBUTTON      "New Task",IDC_BUTTON_NEW,368,16,51,16
+    GROUPBOX        " Timing Status ",IDC_STATIC_TIMINGSTATUS_GRPBOX,197,7,105,28
+    LTEXT           "Timer Off",IDC_STATIC_TIMERSTATUS,203,18,56,10,SS_CENTERIMAGE
+    CONTROL         "",IDC_PROGRESS_TIMINGINDICATOR,"msctls_progress32",WS_BORDER,262,19,34,9
+    LTEXT           "ToDo: add category and Cap Time/Cap Money fields to NEWTASK dlg\nAlso add Completed checkbox column and option to show/hide completed items",IDC_STATIC,135,263,233,27
+END
+
+IDD_DIALOG_NEWTASK DIALOGEX 0, 0, 207, 271
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Task Setup"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,153,250,47,14
+    EDITTEXT        IDC_EDIT_NT_DESCRIP,6,159,194,38,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN
+    GROUPBOX        " Start ",IDC_STATIC,6,7,94,49,BS_CENTER
+    CONTROL         "",IDC_DATETIMEPICKER_STARTTIME,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,35,35,59,15
+    CONTROL         "",IDC_DATETIMEPICKER_STARTDATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,35,16,59,15
+    LTEXT           "Date: ",IDC_STATIC,12,19,20,8
+    LTEXT           "Time: ",IDC_STATIC,12,37,21,8
+    GROUPBOX        " Stop ",IDC_STATIC,106,7,94,49,BS_CENTER
+    CONTROL         "",IDC_DATETIMEPICKER_STOPTIME,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,134,35,59,15
+    CONTROL         "",IDC_DATETIMEPICKER_STOPDATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,134,16,59,15
+    LTEXT           "Date: ",IDC_STATIC,111,19,20,8
+    LTEXT           "Time: ",IDC_STATIC,111,38,21,8
+    LTEXT           "Task Description:",IDC_STATIC,6,148,67,8
+    LTEXT           "Pay Rate:",IDC_STATIC,6,84,32,8
+    EDITTEXT        IDC_EDIT_PAYRATE_DOLLARS,43,83,29,12,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        IDC_COMBO_PAYRATE,76,83,35,44,CBS_DROPDOWN | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Total : $0.00",IDC_STATIC_TOTAL,116,85,60,8
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,6,250,45,14
+    LTEXT           "Total Time So Far:",IDC_STATIC,6,65,60,8
+    EDITTEXT        IDC_EDIT_TOTAL_MINUTES,69,62,43,12,ES_AUTOHSCROLL
+    CONTROL         "Mark this Task as Completed",IDC_CHECK_MARKCOMPLETED,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,132,112,11
+    COMBOBOX        IDC_COMBO_WORK_CATEGORY,65,111,135,95,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP,0,HIDC_COMBO_WORK_CATEGORY
+    LTEXT           "Work Categories: ",IDC_STATIC,6,112,59,8
+    LTEXT           "ToDo: add category and Cap Time/Cap Money fields to NEWTASK dlg\nAlso add Completed checkbox column and option to show/hide completed items",IDC_STATIC,6,207,194,37
+END
+
+IDD_GLOBAL_OPTIONS DIALOGEX 0, 0, 243, 170
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,186,149,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,149,50,14
+    CONTROL         "Show Rate Column",IDC_CHECK_SHOW_HIDE_RATECOLUMN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,7,78,7
+END
+
+IDD_DIALOG_PROJECTDATA DIALOGEX 0, 0, 252, 274
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Project / Customer Data"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,195,252,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,252,50,14
+    EDITTEXT        IDC_EDIT_CUSTOMERPHONE,53,152,182,13,ES_AUTOHSCROLL
+    LTEXT           " Name:",IDC_STATIC,14,59,32,13
+    LTEXT           "Title:",IDC_STATIC,14,194,37,10
+    LTEXT           "Address:",IDC_STATIC,14,80,36,11
+    LTEXT           "Email:",IDC_STATIC,14,131,32,11
+    LTEXT           "Phone",IDC_STATIC,14,152,32,12
+    LTEXT           "Description:",IDC_STATIC,14,215,40,11
+    EDITTEXT        IDC_EDIT_CUSTOMERNAME,53,59,182,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CUSTOMEREMAIL,53,131,182,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PROJECTTITLE,57,194,177,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CUSTOMERADDRESS,53,80,182,41,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN
+    EDITTEXT        IDC_EDIT_PROJECTDESCRIPTION,57,215,177,13,ES_AUTOHSCROLL
+    GROUPBOX        " Customer Data ",IDC_STATIC,7,47,238,127
+    GROUPBOX        " Project Specific Data ",IDC_STATIC,7,179,238,58
+    COMBOBOX        IDC_COMBO_SAVED_DATALIST,56,7,189,54,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Saved Data: ",IDC_STATIC,7,7,44,11
+    PUSHBUTTON      "Add to Saved Data list",IDC_BUTTON_ADD_TO_SAVEDDATA,160,25,85,14
+    PUSHBUTTON      "Remove from Saved Data",IDC_BUTTON_REMOVE_FROM_SAVEDDATA,56,25,95,14
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 184, 57
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Fast Edit Task Description"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,127,36,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,36,50,14
+    EDITTEXT        IDC_EDIT_FASTNOTES,7,7,170,20,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_STARTUPSETTINGS_DLG DIALOGEX 0, 0, 225, 140
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Startup Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,168,119,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,119,50,14
+    CONTROL         "Startup with Last File",IDC_CHECK_STARTUP_W_LASTFILE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,7,83,11
+END
+
+IDD_DIALOG_PROP_WORKCATS DIALOGEX 0, 0, 238, 238
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,181,217,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,217,50,14
+    COMBOBOX        IDC_COMBO1,163,28,59,93,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Maybe this should just be a simple popup dlg to enter work categories from main window ?",IDC_STATIC,38,93,116,32
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "TimeKeeper.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "TimeKeeper.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_TIMEKEEPER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 419
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 290
+    END
+
+    IDD_DIALOG_NEWTASK, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+    END
+
+    IDD_GLOBAL_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 163
+    END
+
+    IDD_DIALOG_PROJECTDATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 266
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 177
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_DIALOG_STARTUPSETTINGS_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_DIALOG_PROP_WORKCATS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENUEX 
+BEGIN
+    POPUP "File",                           65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "New",                         ID_FILE_NEW,MFT_STRING,MFS_ENABLED
+        MENUITEM "Append",                      ID_FILE_APPEND,MFT_STRING,MFS_ENABLED
+        MENUITEM "Open",                        ID_FILEOPEN,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Save",                        ID_FILE_SAVE,MFT_STRING,MFS_ENABLED
+        MENUITEM "Save As",                     ID_FILE_SAVEAS,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Page Setup",                  ID_FILE_PAGESETUP,MFT_STRING,MFS_ENABLED
+        MENUITEM "Print",                       ID_FILE_PRINT32780,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Recent Files",                ID_FILE_RECENTFILES,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Export",                      ID_FILE_EXPORT,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Exit",                        ID_FILE_EXIT,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "Options",                        65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Startup Settings",            ID_OPTIONS_STARTUPSETTINGS,MFT_STRING,MFS_ENABLED
+        MENUITEM "Project Data",                ID_OPTIONS_PROJECTDATA,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "Help",                           65535,MFT_STRING | MFT_RIGHTJUSTIFY,MFS_ENABLED
+    BEGIN
+        MENUITEM "Quick Help",                  ID_HELP_QUICKHELP,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "About Timekeeper",            ID_HELP_ABOUTTIMEKEEPER,MFT_STRING,MFS_ENABLED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_NEWTASK DLGINIT
+BEGIN
+    IDC_COMBO_PAYRATE, 0x403, 3, 0
+0x7268, "\000" 
+    IDC_COMBO_WORK_CATEGORY, 0x403, 8, 0
+0x6577, 0x7362, 0x7469, 0x0065, 
+    IDC_COMBO_WORK_CATEGORY, 0x403, 5, 0
+0x6472, 0x7862, "\000" 
+    IDC_COMBO_WORK_CATEGORY, 0x403, 5, 0
+0x6c6a, 0x6264, "\000" 
+    IDC_COMBO_WORK_CATEGORY, 0x403, 16, 0
+0x6f47, 0x6144, 0x6464, 0x2079, 0x6f63, 0x746e, 0x6361, 0x0074, 
+    IDC_COMBO_WORK_CATEGORY, 0x403, 10, 0
+0x6d65, 0x7265, 0x6567, 0x636e, 0x0079, 
+    0
+END
+
+IDD_DIALOG_PROP_WORKCATS DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 5, 0
+0x6472, 0x7862, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x6c6a, 0x6264, "\000" 
+    IDC_COMBO1, 0x403, 8, 0
+0x6577, 0x7362, 0x7469, 0x0065, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About TimeKeeper..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_OPTIONS_SHOWRATECOLUMN "Hide / Show Rate Column for entire application"
+    ID_OPTIONS_SHOWTASKNUMBERCOLUMN "Hide / Show the Task Number Column"
+    ID_FILE_LOADLASTFILEONSTARTUP 
+                            "If checked will automatically load this file on startup."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Saves any current data before clearing the Task List ..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\TimeKeeper.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,12 @@
+TD| 0|05/29/09 03:40:52|08/26/10 05:38:18|00:00:30|50/hr|   0.42|asbfmd,sfbnafb,amfb,fasf
+TD| 1|05/29/09 03:03:36|08/26/10 05:39:09|00:01:06|50/hr|   0.92|Task # 0 goes rigggggggggggght here ...
+TD| 2|05/29/09 03:13:12|05/31/09 21:21:32|00:00:56|50/hr|   0.78|Task # 1 is to complete USAJobs app
+TD| 3|05/29/09 03:13:17|07/28/10 20:53:32|00:11:23|50/hr|   9.49|Be SURE to do Kings Bay Sub Base, too !!!!!
+TD| 4|05/29/09 03:13:19|05/31/09 21:21:41|00:00:26|50/hr|   0.36|Talk w Chang re transmission
+TD| 5|05/29/09 03:40:52|08/26/10 19:02:24|00:00:20|50/hr|   0.28|do SUBSTANTIAL work on TimeKeeper
+TD| 6|05/29/09 03:13:19|08/26/10 05:55:34|00:01:50|50/hr|   1.53|do the other things...
+TD| 7|05/31/09 04:12:53|06/01/09 01:48:21|00:00:04|50/hr|   0.06|Task # 7
+TD| 8|05/31/09 04:12:58|06/01/09 01:48:36|00:00:08|50/hr|   0.11|task 8 was appended happily !!!!!
+TD| 9|05/31/09 04:14:33|06/01/09 01:48:25|00:00:06|50/hr|   0.08|Task # 9
+TD|10|06/03/09 20:57:46|07/28/10 20:53:46|00:00:03|50/hr|   0.04||Task # 0||Task # 0
+TD|11|07/15/10 23:07:01|08/18/10 13:01:26|00:00:33|50/hr|   0.46|test testtesttesttesttesttesttesttesttesttesttesttesttesttesttest
