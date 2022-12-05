@@ -1,28 +1,7 @@
-TD| 0|05/29/09 03:40:52|05/30/09 00:29:47|23:59:53|50/hr|23123123|asbfmd,sfbnafb,amfb,fasf
-TD| 1|05/29/09 03:03:36|05/30/09 22:18:58|00:00:46|50/hr|100|Task # 0 goes rigggggggggggght here ...
-TD| 2|05/29/09 03:13:12|05/29/09 03:13:12|00:00:55|50/hr|200|Task # 1 is to complete USAJobs app
-TD| 3|05/29/09 03:13:17|05/30/09 00:29:56|00:01:01|50/hr|130|Be SURE to do Kings Bay Sub Base, too !!!!!
-TD| 4|05/29/09 03:13:19|05/30/09 22:19:01|00:00:23|50/hr|140|Talk w Chang re transmission
-TD| 5|05/29/09 03:40:52|05/31/09 03:21:56|00:00:13|50/hr|123|do SUBSTANTIAL work on TimeKeeper
-TD| 6|05/29/09 03:13:19|05/29/09 03:40:41|00:00:55|50/hr|140|do the other things...
-TD| 0|05/29/09 03:40:52|05/30/09 00:29:47|23:59:53|50/hr|23123123|asbfmd,sfbnafb,amfb,fasf
-TD| 1|05/29/09 03:03:36|05/30/09 22:18:58|00:00:46|50/hr|100|Task # 0 goes rigggggggggggght here ...
-TD| 2|05/29/09 03:13:12|05/29/09 03:13:12|00:00:55|50/hr|200|Task # 1 is to complete USAJobs app
-TD| 3|05/29/09 03:13:17|05/30/09 00:29:56|00:01:01|50/hr|130|Be SURE to do Kings Bay Sub Base, too !!!!!
-TD| 4|05/29/09 03:13:19|05/30/09 22:19:01|00:00:23|50/hr|140|Talk w Chang re transmission
-TD| 5|05/29/09 03:40:52|05/29/09 03:40:52|00:00:11|50/hr|123|do SUBSTANTIAL work on TimeKeeper
-TD| 6|05/29/09 03:13:19|05/29/09 03:40:41|00:00:55|50/hr|140|do the other things...
-TD| 0|05/29/09 03:40:52|05/30/09 00:29:47|23:59:53|50/hr|23123123|asbfmd,sfbnafb,amfb,fasf
-TD| 1|05/29/09 03:03:36|05/30/09 22:18:58|00:00:46|50/hr|100|Task # 0 goes rigggggggggggght here ...
-TD| 2|05/29/09 03:13:12|05/29/09 03:13:12|00:00:55|50/hr|200|Task # 1 is to complete USAJobs app
-TD| 3|05/29/09 03:13:17|05/30/09 00:29:56|00:01:01|50/hr|130|Be SURE to do Kings Bay Sub Base, too !!!!!
-TD| 4|05/29/09 03:13:19|05/30/09 22:19:01|00:00:23|50/hr|140|Talk w Chang re transmission
-TD| 5|05/29/09 03:40:52|05/29/09 03:40:52|00:00:11|50/hr|123|do SUBSTANTIAL work on TimeKeeper
-TD| 6|05/29/09 03:13:19|05/29/09 03:40:41|00:00:55|50/hr|140|do the other things...
 TD| 0|05/29/09 03:40:52|05/31/09 04:07:31|23:59:54|50/hr|23123123|put a much better title right here !!!!!1
 TD| 1|05/29/09 03:03:36|05/30/09 22:18:58|00:00:46|50/hr|100|Task #1 goes right here ...
-TD| 2|05/29/09 03:13:12|05/31/09 04:07:20|00:01:04|50/hr|200|Task #2 is to complete USAJobs app
-TD| 3|05/29/09 03:13:17|05/30/09 00:29:56|00:01:01|50/hr|130|Be SURE to do Kings Bay Sub Base, too !!!!!
+TD| 2|05/29/09 03:13:12|05/31/09 04:07:20|00:01:04|50/hr|200|Task #2 is to complete USAJobs
+TD| 3|05/29/09 03:13:17|05/30/09 00:29:56|00:01:01|50/hr|130|Be SURE to do KKBS, too !!!!!
 TD| 4|05/29/09 03:13:19|05/30/09 22:19:01|00:00:23|50/hr|140|Talk w Chang re transmission
 TD| 5|05/29/09 03:40:52|05/31/09 04:07:09|00:00:16|50/hr|123|do SUBSTANTIAL work on TimeKeeper
 TD| 6|05/29/09 03:13:19|05/29/09 03:40:41|00:00:55|50/hr|140|do the other things...
